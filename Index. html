@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pricing Table</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="pricing-table">
+    
+    <div class="pricing-plan">
+      <img src="images/icon1.png" alt="Personal Plan Icon">
+      <h2>Personal</h2>
+      <ul>
+        <li>Custom domain</li>
+        <li>Sleeps after inactivity</li>
+      </ul>
+      <p class="price">Free</p>
+      <button>Sign Up</button>
+    </div>
+
+    <div class="pricing-plan featured">
+      <img src="images/icon2.png" alt="Small Team Icon">
+      <h2>Small Team</h2>
+      <ul>
+        <li>Never sleeps</li>
+        <li>Multiple workers</li>
+      </ul>
+      <p class="price">$150</p>
+      <button>Free Trial</button>
+    </div>
+
+    <div class="pricing-plan">
+      <img src="images/icon3.png" alt="Enterprise Icon">
+      <h2>Enterprise</h2>
+      <ul>
+        <li>Dedicated</li>
+        <li>Scales horizontally</li>
+      </ul>
+      <p class="price">$400</p>
+      <button>Free Trial</button>
+    </div>
+
+  </div>
+
+</body>
+</html>
